@@ -94,6 +94,7 @@ button{
 }
 .but2{
         margin: auto;
+        display: flex;
         padding: 10px 15px;
         font-weight: bold;
         border-radius: 5px;
