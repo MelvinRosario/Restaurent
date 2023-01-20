@@ -11,6 +11,33 @@ body{
     font-size: 32px;
     font-weight: bold;
 }
+#navanime{
+    animation: navani 2s ease-in-out ;
+}
+@keyframes navani {
+    0%{
+        transform: translateY(-100px);
+    }
+}
+.homepag{
+    animation: homepag 2s linear;
+}
+@keyframes homepag{
+    0%{
+        display: contents;
+        transform: translateX(-300px);
+    }
+
+}
+.homepic{
+    animation: homepic 2s linear;
+}
+@keyframes homepic{
+    0%{
+        transform: translateX(400px);
+    }
+}
+
 .home{
     color: rgb(236, 81, 19);
     
