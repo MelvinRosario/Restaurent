@@ -1,7 +1,9 @@
 
 body{
-    background-color: black;
-    
+    background-color: black;  
+}
+html{
+    scroll-behavior: smooth;
 }
 .himg{
     margin-top: 50px;
