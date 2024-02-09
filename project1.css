@@ -21,24 +21,24 @@ html{
         transform: translateY(-100px);
     }
 }
-.homepag{
+/* .homepag{
     animation: homepag 2s linear;
 }
 @keyframes homepag{
     0%{
         display: contents;
         transform: translateX(-300px);
-    }
+    } */
 
 }
-.homepic{
+/* .homepic{
     animation: homepic 2s linear;
 }
 @keyframes homepic{
     0%{
         transform: translateX(400px);
     }
-}
+} */
 
 .home{
     color: rgb(236, 81, 19);
@@ -133,6 +133,7 @@ button{
 .but2:hover{
     padding: 10px 25px;
     color: black;
+    border: 2px solid white;
 }
 footer{
     margin-top: 30px;
@@ -152,7 +153,7 @@ footer{
     font-weight: ;
 }
 #blob1{
-    /* box-shadow: 0px 5px 5px 5px #f16303; */
+    box-shadow: 0px 5px 5px 5px #f16303;
     animation: blob1 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
     background-color: #f16303;
@@ -168,7 +169,7 @@ footer{
     
 }
 #blob2{
-    box-shadow: 0px 5px 5px 5px #f16303;
+/*     box-shadow: 0px 5px 5px 5px #f16303; */
     animation: blob2 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
 }
@@ -178,9 +179,9 @@ footer{
         border-radius: 70% 50% 20% 80% / 40% 20% 70% 80%;
     }
     
-    
 }
 #blob3{
+    box-shadow: 0px 5px 5px 5px #f16303;
     animation: blob3 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
     background-color: #f16303;
@@ -195,7 +196,7 @@ footer{
     }
 }
 #blob4{
-    box-shadow: 0px 5px 5px 5px #f16303;
+/*     box-shadow: 0px 5px 5px 5px #f16303; */
     animation: blob4 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
     
