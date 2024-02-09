@@ -79,12 +79,12 @@ button{
     padding: 10px 15px;
     font-weight: bold;
     margin-bottom: 70px;
+    transition: all 0.5s ease;
 }
 #h13:hover{
     color: black;
     font-weight: bold;
     padding: 10px 25px;
-    transition: 1s;
 }
 #h14{
     color: white;
@@ -97,12 +97,12 @@ button{
     font-weight: bold;
     margin-bottom: 20px;
     letter-spacing: 1px;
+    transition: all 0.5s ease;
 }
 #h15:hover{
     color: black;
     font-weight: bold;
     padding: 10px 25px;
-    transition: 1s;
 }
 .img1{
     display: flex;
@@ -128,11 +128,10 @@ button{
         font-weight: bold;
         border-radius: 5px;
         letter-spacing: 1px;
-        border: 2px solid white;
+        transition: all 0.5s ease;
 }
 .but2:hover{
     padding: 10px 25px;
-    transition: 1s;
     color: black;
 }
 footer{
@@ -208,3 +207,15 @@ footer{
     }
     
 }
+.fade-up 
+    {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    }
+    .fade-up.show 
+    {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
